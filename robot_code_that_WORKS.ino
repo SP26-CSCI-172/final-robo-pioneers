@@ -34,7 +34,7 @@ const int STR = 3; //state turn right
 const int SHR = 4; //state turn hard right
 const int STOP = 5; //stop
 
-const int TURN_SPEED       = 100; //turn speed constants for IR
+const int TURN_SPEED       = 190; //turn speed constants for IR
 const int BACK_TURN_SPEED  = 190;
 const int SHARP_TURN_SPEED = 150;
 
@@ -108,7 +108,7 @@ void lineturnRight() {  // pivot right for TURN_TIME
   digitalWrite(IN2, HIGH);
   digitalWrite(IN3, HIGH);
   digitalWrite(IN4, LOW);
-  delay(TURN_TIME);
+
 }
 
 void turnRight() {  // pivot right for TURN_TIME
@@ -162,7 +162,7 @@ void lineturnLeft() {  // pivot left for TURN_TIME
   digitalWrite(IN2, LOW);
   digitalWrite(IN3, LOW);
   digitalWrite(IN4, HIGH);
-  delay(TURN_TIME);
+  
 }
 
 
@@ -173,7 +173,7 @@ void turnsharpRight() {  // pivot right for TURN_TIME
   digitalWrite(IN2, HIGH);
   digitalWrite(IN3, HIGH);
   digitalWrite(IN4, LOW);
-  delay(TURN_TIME);
+ 
 }
 
 void turnsharpLeft() {  // pivot left for TURN_TIME
@@ -183,7 +183,7 @@ void turnsharpLeft() {  // pivot left for TURN_TIME
   digitalWrite(IN2, LOW);
   digitalWrite(IN3, LOW);
   digitalWrite(IN4, HIGH);
-  delay(TURN_TIME);
+
 }
 
 void moveStop() {  // stop all motors
