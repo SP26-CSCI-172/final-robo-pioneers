@@ -1,7 +1,7 @@
 Robo Pioneers Final Project Report 
 
 Problem statement:
-The problem we are trying to solve is delivery robots running into obstacles, we want them to avoid obstacles and follow a set path 
+The problem we are trying to solve is delivery robots running into obstacles, we want them to avoid obstacles and follow a set path. We also want them to be controlled by a remote tho change their modes.
 
 Chosen sensors and why:
 The Ultrasonic Sensor to detect distance 
@@ -13,13 +13,13 @@ Code overview:
 Our key functions are all different buttons on our IR Remote 
 
 Innovation section:
-Our design process started as an obstacle detection and alert bot. It ended as an obstacle detection robot just minus the alarm, because we simply just couldn't get it to work 
+Our design process started as an obstacle detection and alert bot. It ended as an obstacle detection robot just minus the alarm, because our buzzer did not work. We also added object following, line following, a dance mode, and manual movement control which can all be controlled using the IR remote.
 
 Challenges + how the group resolved them:
-Some challenges we ran into during this project were getting the line detection to work, wiring, getting the code to work, getting the buzzer to work, and issues with the motors and wheels being reliable and efficient. Solutions to some of these problems could be altering obstacle detection distance, getting a new piezo buzzer and possibly newer motors, and simplifying code. 
+Some challenges we ran into during this project were getting the line detection to work, figuring out proper wiring, getting the code to work, getting the buzzer to work, and issues with the motors and wheels being reliable and efficient. Solutions to some of these problems could be altering obstacle detection distance, removing the piezo buzzer, switching out the Arduino Mega board for a smaller Arduino UNO board, and simplifying code. 
 
 Member contributions:
-Our groups roles were the following; Sky as the Lead Coder and contributor to the PowerPoint, Nia also as a coder, Sam as wiring and construction, Moose also as a coder, Elliot also as a main contributor to the PowerPoint, and Boston as wiring and construction. 
+Our groups roles were the following; Sky as the Lead Coder and PowerPoint co-writer, Nia also as a main coder and powerpoint co-contributor, Sam as construction, Moose also as a coder, Elliot also as a main contributor to the PowerPoint, and Boston as wiring and construction. 
 
 Instructions for someone else to run your robot from scratch:
 1  Power on with a small white button on the right side of the board if you are looking the same direction as the ultrasonic sensor (the kitty cat shape) 
