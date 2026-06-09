@@ -28,8 +28,9 @@ Instructions for someone else to run your robot from scratch:
   1 for Line following 
   2 for Obstacle avoidance 
   3 for Dance mode 
-  4 for sleep mode 
+  4 for Object Following mode 
   Forward arrow for moving forward 
   Right arrow for turning right 
   Left arrow for turning left 
   Back arrow for going backwards 
+  OK button to stop the robot
